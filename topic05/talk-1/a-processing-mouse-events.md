@@ -1,3 +1,3 @@
 Event Handling
 
-We will learn how to handle mouse events.  We will also do a recap on Arithmetic Operators but this time, we will look at the order of evalation of these operators. 
+We will learn what mouse events are and how to handle them in your program. 

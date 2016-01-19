@@ -1,3 +1,3 @@
 Static Drawings
 
-We will start to code.  We will step through the creation of static drawings using basic shapes.  You will also cover Grayscale and RGB colour schemes.
+We will introduce you to Processing and show you how to create static drawings using basic shapes.  We will also cover syntax and logic errors.
