@@ -16,9 +16,7 @@ void setup() {
 }
 
 void draw() {
-  float x = mouseX;
-  float y = mouseY;
   background(126);
   fill(255);
-  ellipse(x, y, y, y);
+  ellipse(mouseX, mouseY, mouseY, mouseY);
 }
