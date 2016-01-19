@@ -9,10 +9,8 @@
 //                button above.                         //
 //======================================================//
 
-// setting the size and colour of the window
-int widthOfWindow = 200;
-int lengthOfWindow = 200;
-size(widthOfWindow, lengthOfWindow);
+// setting the size of the window
+size(200, 200);
 
 //drawing a square
 float xCoordinate = 50.67;

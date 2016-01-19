@@ -10,13 +10,7 @@
 //======================================================//
 
 // setting the size and colour of the window
-int widthOfWindow;
-int lengthOfWindow;
-
-widthOfWindow = 300;
-lengthOfWindow = 400;
-
-size(widthOfWindow, lengthOfWindow);
+size(300, 400);
 background(0);
 
 //drawing three blue lines
