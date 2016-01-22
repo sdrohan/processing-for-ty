@@ -269,13 +269,33 @@ void draw() {
 <h2>Exercise 1</h2>
 <ul>
 <li>
-<p>Draw circles (diameter 100) as the mouse is moved (the background should not be cleared).</p>
+<p>The object of this exercise is to produce an animation that will:</p>
+<ul>
+<li>Draw circles (diameter 100) as the mouse is moved (the background should not be cleared).</li>
+<li>As each circle is drawn, vary its colour from the previous one (use mathematical calculations on your RBG colours).</li>
+</ul>
 </li>
 <li>
-<p>As each circle is drawn, its colour should vary from the previous one (use mathematical calculations on your RBG colours).</p>
+<p>To code this exercise, follow these steps:</p>
+<ul>
+<li>
+<p>Declare three variables (rColourValue, gColourValue, bColourValue) of type <strong>float</strong>.  Give rColourValue a starting value of 0, gColourValue a starting value of 100, and bColourValue a starting value of 150. </p>
 </li>
 <li>
-<p>Make sure you <strong>boundary</strong> test this exercise.  What we mean by that is...test what happens when your colour reaches 0 or when it reaches 255.  Does it reset itself and cycle through the colours again or does it get stuck in drawing only one colour?</p>
+<p>In the setup() method, set the size of the window to 500x400, the background to black and the stroke to white.</p>
+</li>
+<li>
+<p>In the draw() method:</p>
+<ul>
+<li>set the fill to (rColourValue, gColourValue, bColourValue).</li>
+<li>draw a circle with a diameter of 100 at the current mouse location.</li>
+<li>write an if statement that will add one to the rColourvalue if it is currently less than 255, otherwise set the rColourValue to zero.  Write a similar if statement for the gColourValue and the bColourValue.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>NOTE:  Make sure you <strong>boundary</strong> test this exercise.  What we mean by that is...test what happens when your colour reaches 0 or when it reaches 255.  Does it reset itself and cycle through the colours again or does it get stuck in drawing only one colour?</p>
 </li>
 </ul>
 <h2>Challenge Exercise 1</h2>
